@@ -182,7 +182,7 @@ body {
   color: #FFFFFF;
 }
 
-.header-list {
+.menu {
   display: flex;
 }
 
@@ -197,7 +197,7 @@ body {
   border-radius: 2px;
 }
 
-.header-nav {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -207,7 +207,7 @@ body {
   align-items: center;
 }
 
-.header-link {
+.menu__link {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
@@ -218,18 +218,18 @@ body {
   color: var(--header-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link:hover, .header-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--btn-color);
 }
 
-.header-item {
+.menu__item {
   margin-right: 50px;
 }
-.header-item:last-child {
+.menu__item:last-child {
   margin-right: 0;
 }
 
-.header-mail {
+.connect__mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -238,11 +238,11 @@ body {
   margin-right: 30px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-mail:hover, .header-mail:focus {
+.connect__mail:hover, .connect__mail:focus {
   color: var(--btn-color);
 }
 
-.header-tel {
+.connect__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -250,29 +250,29 @@ body {
   color: var(--header-link-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-tel:hover, .header-tel:focus {
+.connect__tel:hover, .connect__tel:focus {
   color: var(--btn-color);
 }
 
-.header-connect {
+.header__connect {
   margin-left: auto;
   display: flex;
 }
 
-.header-tel, .header-mail {
+.connect__tel, .connect__mail {
   display: flex;
 }
 
-.header-icon {
+.connect__icon {
   fill: #757575;
   margin-right: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-tel:hover .header-icon, .header-tel:focus .header-icon {
+.connect__tel:hover .connect__icon, .connect__tel:focus .connect__icon {
   color: var(--btn-color);
   fill: var(--btn-color);
 }
-.header-mail:hover .header-icon, .header-mail:focus .header-icon {
+.connect__mail:hover .connect__icon, .connect__mail:focus .connect__icon {
   fill: var(--btn-color);
 }
 
@@ -321,23 +321,23 @@ body {
   background: var(--btn-color);
 }
 
-.option {
+.skills {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.option-list {
+.option__list {
   display: flex;
 }
 
-.option-item {
+.option__item {
   width: 270px;
 }
-.option-item:not(:last-child) {
+.option__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.option-item-title {
+.option__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -347,19 +347,19 @@ body {
   margin-bottom: 10px;
 }
 
-.option-item-text {
+.option__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
-.option-soc-list {
+.option-soc__list {
   display: flex;
   justify-content: center;
 }
 
-.option-soc-item {
+.option-soc__item {
   width: 270px;
   height: 120px;
   background: #F5F4FA;
@@ -367,11 +367,11 @@ body {
   margin-bottom: 30px;
   margin-left: 30px;
 }
-.option-soc-item:first-child {
+.option-soc__item:first-child {
   margin-left: 0px;
 }
 
-.option-soc {
+.option-soc__container {
   display: flex;
   width: 100%;
   height: 100%;

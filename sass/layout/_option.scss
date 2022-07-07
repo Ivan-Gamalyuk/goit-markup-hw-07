@@ -1,20 +1,20 @@
-.option {
+.skills {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-    .option-list {
+    .option__list {
     display: flex;
 
     }
 
-.option-item {
+.option__item {
     width: 270px;
     &:not(:last-child) {
         margin-right: 30px;
         }
     }
 
-.option-item-title {
+.option__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -23,7 +23,7 @@
     color: var(--title-color);
     margin-bottom: 10px;
 } 
-.option-item-text {
+.option__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -31,12 +31,12 @@
     color: var(--text-color);
 }     
 
-.option-soc-list {
+.option-soc__list {
     display: flex;
     justify-content: center;
 }
 
-.option-soc-item {
+.option-soc__item {
     width: 270px;
     height: 120px;
     background: #F5F4FA;
@@ -50,7 +50,7 @@
 }
 
 
-.option-soc {
+.option-soc__container {
     display: flex;
     width: 100%;
     height: 100%;
